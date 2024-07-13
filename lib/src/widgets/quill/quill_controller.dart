@@ -628,7 +628,7 @@ class QuillController extends ChangeNotifier {
     return false;
   }
 
-  /// Return `true` if can paste or have pasted using HTML.
+  /// Return `true` if can paste or have pasted using Markdown.
   Future<bool> _pasteMarkdown() async {
     final clipboardService = ClipboardServiceProvider.instance;
 
